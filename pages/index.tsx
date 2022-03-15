@@ -61,7 +61,7 @@ const Home: NextPage = () => {
                 </li>
                 <li className="nav-item my-auto">
                   <a className="nav-link" href="#">
-                    Games
+                    Game
                   </a>
                 </li>
                 <li className="nav-item my-auto">
@@ -124,7 +124,7 @@ const Home: NextPage = () => {
                 </a>
                 <a
                   className="btn-learn text-lg color-palette-1 my-auto text-center"
-                  href="#"
+                  href="/#"
                   role="button"
                 >
                   Learn More
