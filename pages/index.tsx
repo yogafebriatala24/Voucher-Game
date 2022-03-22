@@ -1,9 +1,11 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import { useEffect } from "react";
+import AOS from "aos";
 
 const Home: NextPage = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <section>
@@ -50,33 +52,33 @@ const Home: NextPage = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon" />
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ms-auto text-lg gap-lg-0 gap-2">
                 <li className="nav-item my-auto">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <a className="nav-link active" aria-current="page" href="/#">
                     Home
                   </a>
                 </li>
                 <li className="nav-item my-auto">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="/#">
                     Games
                   </a>
                 </li>
                 <li className="nav-item my-auto">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="/#">
                     Rewards
                   </a>
                 </li>
 
                 <li className="nav-item my-auto">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="/#">
                     Discover
                   </a>
                 </li>
                 <li className="nav-item my-auto me-lg-20">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="/#">
                     Global Rank
                   </a>
                 </li>
@@ -294,16 +296,16 @@ const Home: NextPage = () => {
                       <path
                         d="M37 55H-4"
                         stroke="white"
-                        stroke-width="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="4"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M23 64L-4 64"
                         stroke="#B7B0F4"
-                        stroke-width="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="4"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <rect
                         x="23"
@@ -327,7 +329,7 @@ const Home: NextPage = () => {
                       cy="29.5"
                       r="5.5"
                       stroke="white"
-                      stroke-width="4"
+                      strokeWidth="4"
                     />
                   </g>
                 </svg>
@@ -375,16 +377,16 @@ const Home: NextPage = () => {
                     <path
                       d="M32 36H5"
                       stroke="white"
-                      stroke-width="4"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M27 45L9 45"
                       stroke="#B7B0F4"
-                      stroke-width="4"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <rect
                       x="56"
@@ -397,16 +399,16 @@ const Home: NextPage = () => {
                     <path
                       d="M97 50H70"
                       stroke="white"
-                      stroke-width="4"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M92 59L74 59"
                       stroke="#6B63AC"
-                      stroke-width="4"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </g>
                 </svg>
@@ -454,23 +456,23 @@ const Home: NextPage = () => {
                     <path
                       d="M50 46L50 68"
                       stroke="white"
-                      stroke-width="4"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M40 54L40 68"
                       stroke="#B7B0F4"
-                      stroke-width="4"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M30 60L30 68"
                       stroke="#B7B0F4"
-                      stroke-width="4"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <circle cx="40" cy="26" r="14" fill="#2B2467" />
                     <path
@@ -698,8 +700,8 @@ const Home: NextPage = () => {
                 Players Top Up
               </p>
             </div>
-            <div className="vertical-line me-lg-35 ms-lg-35 d-lg-block d-none"></div>
-            <div className="horizontal-line mt-6 mb-6 me-lg-35 ms-lg-35 d-lg-none d-block"></div>
+            <div className="vertical-line me-lg-35 ms-lg-35 d-lg-block d-none" />
+            <div className="horizontal-line mt-6 mb-6 me-lg-35 ms-lg-35 d-lg-none d-block" />
             <div className="me-lg-35 ms-lg-35">
               <p className="text-4xl text-lg-start text-center color-palette-1 fw-bold m-0">
                 12.500
@@ -708,8 +710,8 @@ const Home: NextPage = () => {
                 Games Available
               </p>
             </div>
-            <div className="horizontal-line mt-6 mb-6 me-lg-35 ms-lg-35 d-lg-none d-block"></div>
-            <div className="vertical-line me-lg-35 ms-lg-35 d-lg-block d-none"></div>
+            <div className="horizontal-line mt-6 mb-6 me-lg-35 ms-lg-35 d-lg-none d-block" />
+            <div className="vertical-line me-lg-35 ms-lg-35 d-lg-block d-none" />
             <div className="me-lg-35 ms-lg-35">
               <p className="text-4xl text-lg-start text-center color-palette-1 fw-bold m-0">
                 99,9%
@@ -718,8 +720,8 @@ const Home: NextPage = () => {
                 Happy Players
               </p>
             </div>
-            <div className="horizontal-line mt-6 mb-6 me-lg-35 ms-lg-35 d-lg-none d-block"></div>
-            <div className="vertical-line me-lg-35 ms-lg-35 d-lg-block d-none"></div>
+            <div className="horizontal-line mt-6 mb-6 me-lg-35 ms-lg-35 d-lg-none d-block" />
+            <div className="vertical-line me-lg-35 ms-lg-35 d-lg-block d-none" />
             <div className="me-lg-35 ms-lg-35">
               <p className="text-4xl text-lg-start text-center color-palette-1 fw-bold m-0">
                 4.7
@@ -762,7 +764,7 @@ const Home: NextPage = () => {
                 <div className="d-md-block d-flex flex-column w-100">
                   <a
                     className="btn btn-read text-lg rounded-pill"
-                    href="#"
+                    href="/#"
                     role="button"
                   >
                     Read Story

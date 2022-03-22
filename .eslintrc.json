@@ -23,8 +23,8 @@
     "react/function-component-definition": [
       2,
       {
-        "unnamedComponents": "arrow-function",
-        "namedComponents": "function-declaration"
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
       }
     ]
   }
