@@ -256,7 +256,9 @@ export default function CompleteCheckout() {
           </h2>
           <p className="text-lg text-center color-palette-1 m-0">
             Kami akan periksa pembayaran Anda
-            <br className="d-sm-block d-none" /> dan menghubungi via WhatsApp
+            <br className="d-sm-block d-none" />
+            {' '}
+            dan menghubungi via WhatsApp
           </p>
         </div>
         <div className="button-group d-flex flex-column mx-auto">

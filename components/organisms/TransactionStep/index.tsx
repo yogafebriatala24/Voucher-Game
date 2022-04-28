@@ -1,5 +1,6 @@
 import StepItem from '../../molecules/StepItem';
 
+// eslint-disable-next-line react/function-component-definition
 export default function TransactionStep() {
   return (
     <section id="feature" className="feature pt-50 pb-50">

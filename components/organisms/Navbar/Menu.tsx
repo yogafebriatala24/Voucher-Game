@@ -9,14 +9,14 @@ interface MenuProps{
 // eslint-disable-next-line react/function-component-definition
 export default function Menu(props: Partial<MenuProps>) {
   const { title, active, href = '/' } = props;
-  const clasTitle = cx({
+  const classTitle = cx({
     'nav-link': true,
     active,
   });
   return (
     <li className="nav-item my-auto">
       <Link href={href}>
-        <a className={clasTitle} aria-current="page">{title}</a>
+        <a className={classTitle} aria-current="page">{title}</a>
       </Link>
     </li>
   );

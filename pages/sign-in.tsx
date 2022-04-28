@@ -112,7 +112,9 @@ export default function SignIn() {
           </h2>
           <p className="text-white m-0">
             Kami menyediakan jutaan cara untuk
-            <br /> membantu players menjadi
+            <br />
+            {' '}
+            membantu players menjadi
             <br />
             pemenang sejati
           </p>
