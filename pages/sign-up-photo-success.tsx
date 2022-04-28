@@ -1,4 +1,3 @@
-// eslint-disable-next-line react/function-component-definition
 export default function SignUpPhotoSuccess() {
   return (
     <section className="sign-up-photo-success mx-auto pt-lg-227 pb-lg-227 pt-130 pb-50">

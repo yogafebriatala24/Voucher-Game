@@ -1,4 +1,3 @@
-// eslint-disable-next-line react/function-component-definition
 export default function CompleteCheckout() {
   return (
     <section className="complete-checkout mx-auto pt-lg-145 pb-lg-145 pt-100 pb-80">

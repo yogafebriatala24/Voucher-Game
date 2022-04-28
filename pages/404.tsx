@@ -1,4 +1,3 @@
-// eslint-disable-next-line react/function-component-definition
 export default function Custom404() {
   return (
     <section className="not-found mx-auto pt-145 pb-md-212 pb-100">

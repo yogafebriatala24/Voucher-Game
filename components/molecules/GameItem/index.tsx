@@ -1,16 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-interface GameItemProps {
-//   console: 'console1' | 'console2' | 'console3' | 'console4' | 'console5';
-  img: 'Thumbnail-1' | 'Thumbnail-2' | 'Thumbnail-3' | 'Thumbnail-4' | 'Thumbnail-5'
+export interface GameItemProps {
+  thumbnail: '/img/Thumbnail-1.png' | '/img/Thumbnail-2.png' | '/img/Thumbnail-3.png' | '/img/Thumbnail-4.png' | '/img/Thumbnail-5.png'
   title: string;
   subtitle: string;
 }
 
 export default function GameItem(props : GameItemProps) {
   const {
-    img, title, subtitle,
+    thumbnail, title, subtitle,
   } = props;
   return (
     <div className="featured-game-card position-relative">
@@ -19,7 +18,7 @@ export default function GameItem(props : GameItemProps) {
           <div className="blur-sharp">
             <Image
               className="thumbnail"
-              src={`/img/${img}.png`}
+              src={thumbnail}
               width={205}
               height={270}
               alt="thumbnail"

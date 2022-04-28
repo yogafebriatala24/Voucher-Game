@@ -17,27 +17,27 @@ export default function FeaturedGame() {
           <GameItem
             title="Super Mechs"
             subtitle="Mobile"
-            img="Thumbnail-1"
+            thumbnail="/img/Thumbnail-1.png"
           />
           <GameItem
             title="Call of Duty: Modern"
             subtitle="Mobile"
-            img="Thumbnail-2"
+            thumbnail="/img/Thumbnail-2.png"
           />
           <GameItem
             title="Valorant"
             subtitle="Dekstop"
-            img="Thumbnail-3"
+            thumbnail="/img/Thumbnail-3.png"
           />
           <GameItem
             title="Clash of Clan"
             subtitle="Mobile"
-            img="Thumbnail-4"
+            thumbnail="/img/Thumbnail-4.png"
           />
           <GameItem
             title="Mobile Legend"
             subtitle="Mobile"
-            img="Thumbnail-5"
+            thumbnail="/img/Thumbnail-5.png"
           />
         </div>
       </div>
