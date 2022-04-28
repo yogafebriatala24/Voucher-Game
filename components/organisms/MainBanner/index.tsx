@@ -1,6 +1,5 @@
 import Illustration from './Illustration';
 
-// eslint-disable-next-line react/function-component-definition
 export default function MainBanner() {
   return (
     <section className="header pt-lg-60 pb-50">

@@ -1,6 +1,5 @@
 import ReachedItem from '../../molecules/ReachedItem';
 
-// eslint-disable-next-line react/function-component-definition
 export default function Reached() {
   return (
     <section className="reached pt-50 pb-50">

@@ -5,7 +5,7 @@ interface FooterItemProps {
   subtitle3 : string;
   subtitle4 ? :string;
 }
-// eslint-disable-next-line react/function-component-definition
+
 export default function FooterItem(props : Partial<FooterItemProps>) {
   const {
     title, subtitle1, subtitle2, subtitle3, subtitle4,

@@ -3,7 +3,6 @@ interface ReachedItemProps {
     subtitle: string
 }
 
-// eslint-disable-next-line react/function-component-definition
 export default function ReachedItem(props : ReachedItemProps) {
   const {
     title, subtitle,

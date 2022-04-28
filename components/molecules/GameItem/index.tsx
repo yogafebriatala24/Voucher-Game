@@ -8,7 +8,6 @@ interface GameItemProps {
   subtitle: string;
 }
 
-// eslint-disable-next-line react/function-component-definition
 export default function GameItem(props : GameItemProps) {
   const {
     img, title, subtitle,

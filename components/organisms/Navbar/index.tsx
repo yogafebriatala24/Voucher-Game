@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Menu from './Menu';
 import Auth from './Auth';
 import ToggleMenu from './ToggleMenu';
-// eslint-disable-next-line react/function-component-definition
 export default function Navbar() {
   return (
     <section>

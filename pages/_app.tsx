@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import '../styles/utilities.css';
 import '../styles/homepage.css';
 import '../styles/detail.css';

@@ -1,6 +1,5 @@
 import GameItem from '../../molecules/GameItem';
 
-// eslint-disable-next-line react/function-component-definition
 export default function FeaturedGame() {
   return (
     <section className="featured-game pt-50 pb-50">

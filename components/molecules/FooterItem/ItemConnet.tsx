@@ -5,7 +5,6 @@ interface ItemConnetProps {
     alamat: string;
     telepon: string;
 }
-// eslint-disable-next-line react/function-component-definition
 export default function ItemConnet(props : ItemConnetProps) {
   const {
     title, email1, email2, alamat, telepon,

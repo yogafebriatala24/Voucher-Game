@@ -1,9 +1,7 @@
 import Link from 'next/link';
-
 interface AuthProps {
     isLogin? : boolean;
 }
-// eslint-disable-next-line react/function-component-definition
 export default function Auth(props: Partial<AuthProps>) {
   const { isLogin } = props;
   if (isLogin) {

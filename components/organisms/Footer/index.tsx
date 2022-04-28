@@ -2,7 +2,6 @@ import Image from 'next/image';
 import FooterItem from '../../molecules/FooterItem';
 import ItemConnet from '../../molecules/FooterItem/ItemConnet';
 
-// eslint-disable-next-line react/function-component-definition
 export default function Footer() {
   return (
     <section className="footer pt-50">

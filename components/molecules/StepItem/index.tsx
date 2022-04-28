@@ -4,7 +4,7 @@ interface StepItemProps {
     desc1: string;
     desc2: string;
 }
-// eslint-disable-next-line react/function-component-definition
+
 export default function StepItem(props: StepItemProps) {
   const {
     icon, title, desc1, desc2,

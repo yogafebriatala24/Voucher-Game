@@ -1,6 +1,5 @@
 import Image from 'next/image';
 
-// eslint-disable-next-line react/function-component-definition
 export default function Illustration() {
   return (
     <div className="col-lg-6 col-12 d-lg-block d-none">
